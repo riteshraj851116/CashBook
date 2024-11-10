@@ -1,8 +1,12 @@
 const Transaction = require('../models/Transaction');
 
+<<<<<<< HEAD
+
+=======
 /**
  * Add a new transaction
  */
+>>>>>>> 29bd98db88e85c620bf99d04bf9273798e1235d5
 exports.addTransaction = async (req, res) => {
     const { amount, purpose, type } = req.body;
 
@@ -19,9 +23,13 @@ exports.addTransaction = async (req, res) => {
     }
 };
 
+<<<<<<< HEAD
+
+=======
 /**
  * Get all transactions
  */
+>>>>>>> 29bd98db88e85c620bf99d04bf9273798e1235d5
 exports.getTransactions = async (req, res) => {
     try {
         const transactions = await Transaction.find().sort({ date: -1 });

@@ -1,0 +1,50 @@
+/* Main container for the About Page */
+.about-page {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(0deg, #000000, #000000); /* Black gradient background */
+    color: #FFD700;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+  }
+  
+  /* Styling for the title */
+  .about-title {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #FFD700; /* Slightly lighter text color */
+  }
+  
+  /* Styling for the description text */
+  .about-description {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    line-height: 1.7;
+    max-width: 700px;
+    color: #dcdcdc; /* Lighter text color for better readability */
+  }
+  
+  /* Styling for credits or contact info */
+  .about-credits {
+    font-size: 1rem;
+    font-style: italic;
+    opacity: 0.85;
+    color: #bbbbbb; /* Softer color for credits */
+  }
+  
+  /* Add subtle transition effect */
+  .about-page, .about-title, .about-description, .about-credits {
+    transition: all 0.3s ease;
+  }
+  
+  /* Hover effect to brighten the text a bit */
+  .about-title:hover, .about-description:hover, .about-credits:hover {
+    color: #ffffff;
+  }
+  

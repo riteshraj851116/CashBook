@@ -4,8 +4,11 @@ const dotenv = require('dotenv');
 const connectDB = require('./config/db');
 const transactionRoutes = require('./routes/transactions');
 
+<<<<<<< HEAD
+=======
 dotenv.config();
 
+>>>>>>> 29bd98db88e85c620bf99d04bf9273798e1235d5
 
 const app = express();
 
